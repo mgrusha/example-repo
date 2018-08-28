@@ -6,8 +6,9 @@ public class Main {
         boolean anotherVariable=true;
        // my comment		
         int b = 1;		
-        int discount =  discountCalc(63, regularClient) ;
-        System.out.println("Discount is " + discount);
+        int c =3;
+		String bbb;
+		System.out.println("Discount is " + discount);
     }
 
     public static int discountCalc(int age, boolean anotherVariable){
