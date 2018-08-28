@@ -3,12 +3,14 @@ public class Main {
     //this is main method
 	//I am sure
     public static void main(String[] args) {
-        boolean regularClient=true;
+        boolean anotherVariable=true;
+       // my comment		
+        int b = 1;		
         int discount =  discountCalc(63, regularClient) ;
         System.out.println("Discount is " + discount);
     }
 
-    public static int discountCalc(int age, boolean regularClient){
+    public static int discountCalc(int age, boolean anotherVariable){
         int discount = 0;
         if (age >= 65) {
             discount = 10;
